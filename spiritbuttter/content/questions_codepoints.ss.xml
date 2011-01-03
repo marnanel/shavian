@@ -1,0 +1,41 @@
+<shavian title="What codepoints should I use for Shavian?" crumb="Codepoints">
+<crumb><a href=".">Questions</a></crumb>
+<text a="latn" only="1">
+<p>A codepoint is a number which represents a letter.  There have been three major sets of codepoints used with Shavian.</p>
+<dl>
+<dt>Unicode.</dt><dd>This is an international standard.  If you can, this is the one you should use.  Some software has shoddy Unicode support and cannot handle Shavian letters properly, however.</dd>
+<dt>Conscript.</dt><dd>This was made obsolete when the Unicode codepoints were introduced.</dd>
+<dt>ASCII.</dt><dd>This is the oldest system.  It maps Shavian letters over the top of ordinary letters.  Because of this, you cannot use mix Shavian and ordinary letters using this system.</dd>
+</dl>
+<h2>Chart</h2>
+</text>
+<text a="both" notitle="1">
+<br style="clear:both"/>
+<table style="float:left">
+<exec>
+letternames = '/P/EEP /T/OT /K/ICK /F/EE /TH/IGH /S/O /S/URE /CH/URCH /Y/EA HU/NG/ /B/IB /D/EAD /G/AG /V/OW /TH/EY /Z/OO MEA/S/URE /J/UDGE /W/OE /H/AHA /L/OLL /M/IME /I/F /E/GG /A/SH /A/DO /O/N W/OO/L /OU/T /AH/ /R/OAR /N/UN /EA/T /A/GE /I/CE /U/P /OA/K /OO/ZE /OI/L /AWE/ /ARE/ /OR/ /AIR/ /ERR/ /ARR/AY /EAR/ /IA/N /YEW/'.split(' ')
+mapdown = 'ptkfTsScjNbdgvHzZJwhlmieAaoUQyrnIEFuOMqYRPXxDCWVG'
+
+def table_headers():
+  ths = ['Letter', 'Unicode', 'Name', 'ASCII', 'Conscript']
+  print '<tr lang="en-latn">'
+  for th in ths:
+    print '<th>%s</th>' % (th)
+  print '</tr>'
+  print '<tr lang="en-shaw">'
+  for th in ths:
+    print '<th>%s</th>' % (shavianise(th))
+  print '</tr>'
+
+table_headers()
+
+for i in range(0,48):
+  print '<tr><td lang="en-shaw" style="font-size:300%%">%s</td><td><tt>U+%X SHAVIAN LETTER %s</tt></td><td>%s</td><td><tt>U+%X ("%s")</tt></td><td><tt>U+%X</tt></td></tr>' % (unichr(i+0x10450), i+0x10450, letternames[i].replace('/','<em>',1).replace('/','</em>',1), shavianise(letternames[i].replace('/','')), ord(mapdown[i]), mapdown[i], i+0xE700)
+  if i==23:
+     print '&lt;/table&gt;&lt;table style="float:right"&gt;';
+     table_headers()
+</exec>
+<tr><td style="font-size:300%">&#xB7;</td><td><tt>U+B7 MIDDLE DOT</tt></td><td><e latn="Naming dot" shaw="nAmiN dot"/></td><td><tt>U+47 ("G")</tt></td><td>n/a</td></tr>
+</table>
+</text>
+</shavian>

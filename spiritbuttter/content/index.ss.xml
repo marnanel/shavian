@@ -1,0 +1,23 @@
+<shavian title="Another alphabet is possible." crumb="">
+<text a="latn" only="1">
+<p>The Shavian alphabet is a simple, memorable, regular alternative to the alphabet we all grew up with.  It's been around for nearly fifty years.</p>
+<form method="get" action="translate"><ul>
+<li><a href="learn/">Click here for a gentle introduction to Shavian</a>.</li>
+<li>Or, try translating <input name="t" value="anything you like"/> <input type="submit" value="into Shavian"/>.</li>
+</ul></form>
+<p>After you have learned to <e latn="read" shaw="rId"/> Shavian, you might want to</p>
+<ul>
+<li><a href="xkcd/">read the XKCD comic in Shavian</a>,</li>
+<li><a href="games/hangman/">play Hangman in Shavian</a>,</li>
+<li><a href="learn/quiz/all/1">play a Shavian flashcard game</a>,</li>
+<li><a href="feeds/"><e latn="read" shaw="rId"/> the feeds of your favourite <e latn="websites" shaw="websFts"/> in Shavian</a>,</li>
+<li><a href="film/sita/">watch a film with Shavian subtitles</a>,</li>
+<li>or <a href="http://ubuntu.shavian.org.uk">help translate free software into Shavian</a>.</li>
+</ul>
+<p>If you want some more technical information, you might be interested in
+<a href="set/">the Shavian Set</a>, a system to translate text into Shavian automatically, or in
+<a href="wiki/">contributing some translations of your own</a>.
+</p>
+<p>There is also <a href="shawscript/">an archive of the <cite>Shaw Script</cite> journal</a> available, and there will be <a href="questions/">answers to some questions</a> later.</p>
+</text>
+</shavian>

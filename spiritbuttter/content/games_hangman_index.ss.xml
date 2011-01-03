@@ -1,0 +1,13 @@
+<shavian title="Shavian Hangman" crumb="Hangman">
+<crumb><a href="..">Games</a></crumb>
+<text a="latn" only="1">
+<p><just a="latn"><img src="6" alt="" width="400" height="304" style="float:right"/></just>This is a game of Hangman.  If you don't know how to play Hangman,
+<a href="http://en.wikipedia.org/wiki/Hangman_(game)">Wikipedia will tell you</a>.</p>
+<p>Only words from the Shavian wiki, and no proper nouns, will appear.
+Be warned that taboo words are not screened out.
+It might help you to keep <a href="/questions/frequencies">a letter
+frequency chart</a> to hand.</p>
+<p style="font-weight:bolder">Note: I am aware that this game is currently far too difficult.  Sorry.  I will add more lives.</p>
+<p><a href="play">Play!</a></p>
+</text>
+</shavian>

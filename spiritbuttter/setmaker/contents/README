@@ -1,0 +1,9 @@
+Please see the comment at the start of shavian-set.xml for licence information.
+
+To compile the database, type:
+
+   make
+
+To run the tests, type:
+
+   make test

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"  ?>
+<feedlist>
+  <feed id="wikinews" src="http://feeds.feedburner.com/WikinewsLatestNews" credit="Wikinews is released under the cc-by Creative Commons licence." lj="shavianwikinews"/>
+  <feed id="weather-lon" src="http://www.rssweather.com/wx/gb/london/rss.php" weather="1" credit="Weather data courtesy of &lt;a href=&quot;http://rssweather.com&quot;&gt;rssweather&lt;/a&gt; and &lt;a href=&quot;http://hamweather.com&quot;&gt;HAMweather&lt;/a&gt;."/>
+</feedlist>

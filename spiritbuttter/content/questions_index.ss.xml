@@ -1,0 +1,20 @@
+<shavian title="Questions" crumb="Questions">
+<text a="latn" only="1">
+<p>Coming soon: the answers to these questions.</p>
+<ul>
+<li>Where did Shavian come from?</li>
+<li>But <e latn="isn't" shaw="iznt"/> it just a lot of little squiggles?</li>
+<li>But everyone speaks differently anyway!</li>
+<li><a href="name">Is it <e latn="Shay-vian" shaw="SEvWn"/> or <e latn="Shavv-ian" shaw="SAvWn"/>?</a></li>
+<li><a href="standards">What standards cover Shavian?</a></li>
+<li>What Shavian fonts are available?</li>
+<li>How do I type in Shavian on my computer?</li>
+<li>Has anyone tried to improve on Shavian?</li>
+<li>What is the Shavian Set?</li>
+<li>Why don't you use an existing free pronouncing dictionary?</li>
+<li>How do you handle homonyms?  For example, what about <e latn="read" shaw="red"/> and <e latn="read" shaw="rId"/>?</li>
+<li><a href="codepoints">What codepoints should I use with Shavian?</a></li>
+<li><a href="frequencies">What are the frequencies of the letters?</a></li>
+</ul>
+</text>
+</shavian>

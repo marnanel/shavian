@@ -1,0 +1,8 @@
+<shavian title="Shavian games" crumb="Games">
+<text a="latn" only="1">
+<ul>
+  <li><a href="http://www.wesnoth.org/gettext/index.lang.php?lang=en@shaw&amp;version=branch"><cite>The Battle for <e latn="Wesnoth" shaw="GweznoT"/></cite></a></li>
+<li><a href="hangman/">Hangman</a></li>
+</ul>
+</text>
+</shavian>

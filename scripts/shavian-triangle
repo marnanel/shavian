@@ -1,0 +1,52 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use Getopt::Long;
+use ShavianOrg::Index;
+
+my $verbose = 0;
+my $force = 0;
+my $help = 0;
+
+my $result = GetOptions (
+  "help|h" => \$help,
+  "force|f"   => \$force,
+  "verbose|v"  => \$verbose);
+
+if ($help || !$result) {
+  print "shavian-triangle: split out documents into lemmata\n\n";
+  print " --force, -f: recreate all documents, not just changed ones\n";
+  print " --verbose, -v: say what is being done\n";
+  exit(1);
+}
+
+my $index = $ARGV[0];
+
+if ($index) {
+  $index = '' if $index eq '-';
+  use Data::Dumper;
+  my $list = ShavianOrg::Index::fetch($index);
+
+  print "Shavian > Read";
+  for my $breadcrumb (@{ $list->{'breadcrumbs'} }) {
+    print " > $breadcrumb->[1]";
+  }
+  print "\n";
+
+  print "ID: $list->{id}\n" if defined $list->{id};
+
+  if (defined $list->{'found'}) {
+    if ($list->{'found'}==0) {
+      print "404 - it doesn't exist.\n";
+    } else {
+      print "Found! ",$list->{'found'},"\n";
+    }
+  } else {
+    for my $entry (@{ $list->{'links'} }) {
+      print "\t* $entry->[0]\n";
+    }
+
+    print "No entries.\n" unless @{ $list->{'links'} };
+  }
+}

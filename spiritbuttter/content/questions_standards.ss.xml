@@ -1,0 +1,17 @@
+<shavian title="What standards cover Shavian?" crumb="Standards">
+<crumb><a href=".">Questions</a></crumb>
+<text a="latn" only="1">
+
+<dl>
+<dt><a href="http://unicode.org/iso15924/"><e latn="ISO"/> 15924</a></dt>
+<dd><e latn="ISO"/> 15924 covers codes for scripts.  The codes for Shavian are <e latn="Shaw"/> and 281.  Use whichever is most convenient.</dd>
+<dt><a href="http://www.loc.gov/standards/iso639-2/"><e latn="ISO"/> 639</a></dt>
+<dd><e latn="ISO"/> 639 covers codes for languages.  Shavian is not a language, so you should use the <e latn="ISO"/> 639 code of the language you are writing, usually "<e latn="en"/>" or "<e latn="eng"/>" for English.</dd>
+<dt><a href="http://www.ietf.org/rfc/rfc3066.txt">RFC 3066</a></dt>
+<dd>RFC 3066 governs the representation of languages and scripts with systems such as HTML.  Use "en-shaw".</dd>
+<dt><a href="http://unicode.org/faq/unicode_iso.html"><e latn="ISO"/> 10646</a> / Unicode</dt>
+<dd><e latn="ISO"/> 10646 <a href="codepoints">defines codepoints to use with Shavian</a> between U+10450 and U+1047F, with U+B7 for <a href="/learn/naming_dot">the naming dot</a>.</dd>
+</dl>
+
+</text>
+</shavian>

@@ -1,0 +1,14 @@
+<shavian title="Shavian feeds" crumb="Feeds">
+<text a="latn" only="1">
+<just a="latn"><img src="shaw-rss" width="100" height="100" style="float:right" alt=""/></just>
+<p>Feeds are syndicated summaries of the contents of a website.</p>
+<p><e latn="shavian.org.uk"/> can supply feeds from other <e latn="websites" shaw="websFts"/>, translated into Shavian.</p>
+<p>If you would like to suggest a feed, please email <e latn="thomas"/> at <e latn="thurman.org.uk"/>.</p>
+<h2>Feeds</h2>
+<ul>
+<li><a href="wikinews/">Wikinews</a></li>
+<li><a href="weather-lon/">The weather in London</a></li>
+</ul>
+<p>There is also a feed of <a href="/xkcd/feed">the Shavian translation of XKCD</a> available.</p>
+</text>
+</shavian>

@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" xml:lang="en-GB">
+<head><title>[% TITLE %]- Shavian</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="/static/eirastyle"/></head>
+<body>
+<div class="menu"><a href="/learn/">learn</a> &middot; <a href="/translate/">translate</a> &middot; <a href="/wiki/Main_Page">wiki</a> &middot; <a href="/games/">games</a> &middot; <a href="/feeds">feeds</a> &middot; <a href="/shawscript/">archives</a> &middot; <a href="/film/sita/">film</a> &middot; <a href="/questions/">questions</a> &middot; <a href="/credits">credits</a></div>
+
+<!-- Beginning of Project Wonderful ad code: -->
+<!-- Ad box ID: 49208 -->
+<div class="ads">
+<script type="text/javascript">
+<!--
+var pw_d=document;
+pw_d.projectwonderful_adbox_id = "49208";
+pw_d.projectwonderful_adbox_type = "4";
+pw_d.projectwonderful_foreground_color = "#777";
+pw_d.projectwonderful_background_color = "#002";
+//-->
+</script>
+<script type="text/javascript" src="http://www.projectwonderful.com/ad_display.js"></script>
+<noscript><map name="admap49208" id="admap49208"><area href="http://www.projectwonderful.com/out_nojs.php?r=0&amp;c=0&amp;id=49208&amp;type=4" shape="rect" coords="0,0,125,125" title="" alt="" target="_blank" /></map>
+<table cellpadding="0" border="0" cellspacing="0" width="125" bgcolor="#ffffff"><tr><td><img src="http://www.projectwonderful.com/nojs.php?id=49208&amp;type=4" width="125" height="125" usemap="#admap49208" border="0" alt="" /></td></tr><tr><td bgcolor="#ffffff" colspan="1"><center><a style="font-size:10px;color:#0000ff;text-decoration:none;line-height:1.2;font-weight:bold;font-family:Tahoma, verdana,arial,helvetica,sans-serif;text-transform: none;letter-spacing:normal;text-shadow:none;white-space:normal;word-spacing:normal;" href="http://www.projectwonderful.com/advertisehere.php?id=49208&amp;type=4" target="_blank">Ads by Project Wonderful!  Your ad here, right now: $0</a></center></td></tr></table>
+</noscript>
+<!-- End of Project Wonderful ad code. -->
+</div>
+<div class="breadcrumbs"><strong>Shavian</strong></div>
+<div class="photocredit"><a href="http://www.flickr.com/photos/stephoto/220381401/">Photo &copy; Steve Johnson, cc-by-sa.</a></div>
+<div class="content">
+
+[% FOREACH para IN paras -%]
+<div lang="en-latn">
+[% FOREACH word IN para -%][% IF word.type=='f' -%][% word.value %][% ELSIF word.type=='s' -%][% word.latn %][% ELSIF word.type=='u' -%][% word.latn %][% ELSIF word.type=='d' -%](DAB)[% END %][% END %]
+</div>
+<div lang="en-shaw">
+[% FOREACH word IN para -%][% IF word.type=='f' -%][% word.value %][% ELSIF word.type=='s' -%][% word.shaw %][% ELSIF word.type=='u' -%][% word.latn %][% ELSIF word.type=='d' -%](DAB)[% END %][% END %]
+</div>
+
+[% END %]
+
+<br style="clear:both"/>
+</div></body></html>

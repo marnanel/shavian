@@ -1,0 +1,16 @@
+<shavian title="The Shavian Set" crumb="Set">
+<text a="latn" only="1">
+<just a="latn"><img src="sources" width="300" height="300" alt="Pie chart of sources" style="float:right"/></just>
+<exec>
+import glob
+a=glob.glob('../set/*.bz2')
+a.sort()
+a=a[-1][7:]
+</exec>
+<p>The Shavian Set is a database and a mechanism for automated translation into <a href="/">the Shavian alphabet</a>.  It contains all the words from <a href="/wiki/">the Shavian wiki</a>, augmented by the contents of CMUDict.  <e latn="Disambiguation" shaw="disambigVESan"/> is possible using a part-of-speech-based system using data from the Brown tagger.  <a href="/credits">More details are in the credits</a>.</p>
+<p>The version number is the number of the highest relevant change in <a href="/wiki/">the wiki</a>.</p>
+<p>More details about the mechanism, and an analysis of its effectiveness, will appear here later.</p>
+<p><a href="/translate">You can test the system here.</a></p>
+<p>&lt;a href="<exec>print a</exec>"&gt;You can download the most recent version (<exec>print a[12:20],</exec>) here&lt;/a&gt; (796K.)</p>
+</text>
+</shavian>

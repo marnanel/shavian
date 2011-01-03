@@ -1,0 +1,26 @@
+<shavian title="What are the letter frequencies?" crumb="Frequencies">
+<crumb><a href=".">Questions</a></crumb>
+<text a="latn" only="1">
+<p>These are the frequencies of the Shavian letters in <cite>Androcles and the Lion</cite>.  On average, out of every million Shavian letters, there are:</p>
+<ul>
+<just a="latn"><exec>
+import codecs
+r = codecs.open('androcles-distribution.txt', 'r', 'utf-8')
+freq = {}
+letter = []
+for line in r.readlines():  
+   s = line[:-1].split()
+   freq[s[0]] = s[1]
+del freq['total']
+
+letters = freq.keys()
+letters.sort(lambda a,b: cmp(freq[a],freq[b]))
+letters.reverse()
+for letter in letters:
+   per_million = int(float(freq[letter])*1000000)
+   print '<li><img src="/static/shawscorner1" width="%d" height="20" alt=""/> %d %ss</li>' % (per_million/500, per_million, letter)
+r.close()
+</exec></just>
+</ul>
+</text>
+</shavian>

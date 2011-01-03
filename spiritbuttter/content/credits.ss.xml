@@ -1,0 +1,15 @@
+<shavian title="Credits" crumb="Credits">
+<text a="latn" only="1">
+<p>The photograph of Shaw's Corner at the top of each page is by <a href="http://www.flickr.com/photos/stephoto/220381401/"><e latn="Steve Johnson" shaw="GstIv GJonsan"/></a>, <e latn="cc-by-sa"/>.</p>
+<p>The font used on this site is released under the <a href="http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&amp;id=OFL_web">Open Font Licence</a>.  It contains elements from these fonts:</p>
+<ul>
+<li><a href="http://www.sil.org/~gaultney/Gentium/"><e latn="SIL"/> <e latn="Gentium" shaw="GJentVm"/></a></li>
+<li><a href="http://www.kreativekorp.com/software/fonts/constructium.shtml"><e latn="Constructium" shaw="GkonstruktVm"/></a></li>
+<li><a href="http://www.kreativekorp.com/software/fonts/constructium.shtml"><e latn="Fairfax" shaw="GfXfAks"/></a></li>
+<li><e latn="Shaw Roman no. 1" shaw="GSq rOman numbD 1"/></li>
+</ul>
+<p><a href="/learn/">The lessons</a> were written by <a href="http://marnanel.org">Thomas <e latn="Thurman" shaw="GTxman"/></a>.  They are available under <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><e latn="cc-by-nc-sa"/></a>; use <tt><e latn="git clone http://shavian.org.uk/learn/.git"/></tt> to get your own copy.</p>
+<p>Data in <a href="/set/">the Shavian Set</a> comes from <a href="/wiki/">the Shavian wiki</a>, whose primary contributors have historically been Philip Newton and Thomas <e latn="Thurman" shaw="GTxman"/>; from the public domain transliteration of <cite>Androcles and the Lion</cite>; from <a href="http://www.speech.cs.cmu.edu/cgi-bin/cmudict"><e latn="CMUDict"/></a>; and from the <a href="http://www.scs.leeds.ac.uk/ccalas/tagsets/brown.html"><e latn="Brown" shaw="GbrQn"/> tagger</a>.  Further details are in the packaged documentation.</p>
+<p>The wiki is based on <a href="http://www.mediawiki.org">MediaWiki</a>.  The rest of the site is implemented in <a href="http://python.org"><e latn="Python" shaw="GpFTan"/></a>; it is hosted by <a href="http://redstair.org">Red Stair</a>, and powered by <a href="http://www.rackspacecloud.com/">the <e latn="Rackspace" shaw="rAkspEs"/> Cloud</a>.</p>
+</text>
+</shavian>

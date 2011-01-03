@@ -1,0 +1,8 @@
+- We need to pull in XKCD automatically from here, too, and we need to move the script that processes it into this directory and integrate it.
+- Put other files to be installed into content/
+- setmaker should copy the results into Postgres too
+- translate.cgi should live in this directory
+- translate.cgi should read out of Postgres too
+- souskin should read the skin out of ../learn/img/skin.html
+- move ubuntu.sou into content/ and make that a redirect
+- move u.sou's font preview generator into this directory
